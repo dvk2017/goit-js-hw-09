@@ -2,7 +2,7 @@
   background-color: rgba(46, 47, 66, 0.8);
 }
 
-.sl-counter {
+.hidden-scroll .sl-wrapper .sl-counter {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -11,8 +11,8 @@
   color: #fff;
 }
 
-button.sl-prev,
-button.sl-next,
-button.sl-close {
+.sl-wrapper .sl-navigation button.sl-prev,
+.sl-wrapper .sl-navigation button.sl-next,
+.sl-wrapper button.sl-close {
   color: #fff;
 }

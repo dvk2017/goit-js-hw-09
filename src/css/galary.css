@@ -1,4 +1,5 @@
 @import url('../css/simplelightbox.css');
+@import url('./styles.css');
 
 * {
   box-sizing: border-box;
@@ -67,4 +68,8 @@ img {
 .gallery-image {
   object-fit: cover;
   width: 100%;
+}
+
+.container {
+  text-align: center;
 }
