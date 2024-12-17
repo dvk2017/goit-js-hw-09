@@ -1,3 +1,5 @@
+import throttle from 'lodash.throttle';
+
 let formData = { email: '', message: '' };
 
 const formRefs = {
@@ -26,7 +28,7 @@ if (localStorage.getItem('feedback-form-state')) {
   }
 }
 
-form.addEventListener('input', _.throttle(onInput, 300));
+form.addEventListener('input', throttle(onInput, 300));
 form.addEventListener('submit', onSubmit);
 
 function onInput(evt) {
