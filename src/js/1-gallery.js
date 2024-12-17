@@ -20,10 +20,8 @@ const marcup = images.reduce((html, { preview, original, description }) => {
 const marcupGallery = document.querySelector('.gallery');
 marcupGallery.insertAdjacentHTML('beforeend', marcup);
 
-const a = new SimpleLightbox('.gallery .gallery-link', {
+new SimpleLightbox('.gallery .gallery-link', {
   captionsData: 'alt',
   captionDelay: 250,
   /* options */
 });
-
-console.log(a);
