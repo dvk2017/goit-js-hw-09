@@ -21,7 +21,7 @@ const marcupGallery = document.querySelector('.gallery');
 marcupGallery.insertAdjacentHTML('beforeend', marcup);
 
 new SimpleLightbox('.gallery .gallery-link', {
-  captionsData: 'alt',
+  captionsData: '<input type="email" name="email" autofocus />', //'alt',
   captionDelay: 250,
   /* options */
 });
